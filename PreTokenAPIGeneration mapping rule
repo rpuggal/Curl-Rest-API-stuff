@@ -10,11 +10,11 @@ importClass(Packages.com.ibm.security.access.httpclient.Headers);
 importClass(Packages.com.ibm.security.access.httpclient.Parameters);
 importClass(Packages.java.util.ArrayList);
 importClass(Packages.java.util.HashMap);
-/** CRODDA- START IMPORT CLASSES */
+/** - START IMPORT CLASSES */
 importClass(Packages.com.ibm.security.access.server_connections.ServerConnectionFactory);
 importClass(Packages.com.ibm.security.access.user.UserLookupHelper);
 importClass(Packages.com.ibm.security.access.user.User);
-/** CRODDA- END IMPORT CLASSES */
+/** - END IMPORT CLASSES */
 
 /**
  * This mapping rule uses a user registry for verification of the username 
