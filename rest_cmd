@@ -1,0 +1,21 @@
+#!/bin/sh
+HOST_NAME=$1
+URL_PATH=$2
+METHOD=$3
+DATA=$4
+USER_ID=$5
+PWD=$6
+#echo "in"
+curl -k  \
+--user $USER_ID:$PWD \
+-H Content-type:application/json \
+-H Accept:application/json \
+-s \
+-X $METHOD \
+-d @$DATA \
+https://$HOST_NAME/$URL_PATH
+##https://$host/$path | jq -r .
+#https://$host/$path | python -m json.tool
+#https://$host/$path | sed 's/,/,\n/g'
+echo
+#echo "last "
